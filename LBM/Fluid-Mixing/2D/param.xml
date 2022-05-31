@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+
+<geometry>
+    <averageInletVelocity> 0.01 </averageInletVelocity>
+</geometry>
+
+<fluid>
+    <kinematicViscosity> 1.004e-06 </kinematicViscosity>
+    <density> 1000 </density>
+    <volume> 1.0e-5 </volume>
+    <Re> 10.0 </Re>
+    <G> 0.5 </G>
+</fluid>
+
+<numerics>
+    <referenceResolution> 600 </referenceResolution>
+    <uAveLB> 0.003 </uAveLB>
+</numerics>
+
+<simulation>
+    <simTime> 1000 </simTime>
+    <maxIter> 500000 </maxIter>
+    <writeInterval> 1000 </writeInterval>
+    <epsilon> 1.e-2 </epsilon>
+    <performOutput> True </performOutput>
+</simulation>

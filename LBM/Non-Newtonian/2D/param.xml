@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+
+<numerics>
+    <averageInletVelocity> 0.01 </averageInletVelocity>
+    <uAveLB> 0.03 </uAveLB>
+    <xLength> 5e-4 </xLength>
+    <yLength> 1e-4 </yLength>
+    <resolution> 100 </resolution>
+</numerics>
+
+<fluid>
+    <nu0> 1.004e-06 </nu0>
+    <nuInf> 1000 </nuInf>
+    <lambda> 1.0e-5 </lambda>
+    <exponent> 5.0 </exponent>
+    <Re> 0.3205 </Re>
+</fluid>
+
+<simulation>
+    <simTime> 3600 </simTime>
+    <maxIter> 50000 </maxIter>
+    <writeInterval> 1000 </writeInterval>
+    <epsilon> 1.e-1 </epsilon>
+    <performOutput> True </performOutput>
+</simulation>

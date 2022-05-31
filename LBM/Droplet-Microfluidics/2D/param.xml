@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+
+<geometry>
+    <mesh> ./T-Mesh-small.stl </mesh>
+    <averageInletVelocity> 0.001 </averageInletVelocity>
+    <openings>
+        <sortDirection> 1 </sortDirection>
+        <type> Outlet Inlet Outlet </type>
+    </openings>
+</geometry>
+
+<fluid>
+    <kinematicViscosity> 1.004e-06 </kinematicViscosity>
+    <density> 1000 </density>
+    <volume> 1.0e-5 </volume>
+    <Re> 0.83017 </Re>
+    <G> 0.8 </G>
+</fluid>
+
+<numerics>
+    <referenceDirection> 1 </referenceDirection>
+    <referenceResolution> 200 </referenceResolution>
+    <uAveLB> 0.003 </uAveLB>
+</numerics>
+
+<simulation>
+    <simTime> 1000 </simTime>
+    <maxIter> 60001 </maxIter>
+    <writeInterval> 1000 </writeInterval>
+    <maxLevel> 0 </maxLevel>
+    <epsilon> 1.e-2 </epsilon>
+    <performOutput> True </performOutput>
+</simulation>
